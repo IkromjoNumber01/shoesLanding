@@ -1,0 +1,234 @@
+
+@media(max-width: 1300px){
+    .product__boxes{
+        flex-direction: column;
+    }
+    .player__content{
+        flex-direction: column-reverse;
+        row-gap: 500px;
+    }
+    .player__right{
+        margin: 0 auto;
+        justify-content: center;
+        display: inline-block;
+    }
+    .player__left{
+        margin-top: 550px;
+        margin: 0 auto;
+    }
+    .player__element{
+        width: 0px;
+    }
+    .player__right>video{
+        margin-right: 300px;
+    }
+    .about__content{
+        flex-direction: column;
+        row-gap: 40px;
+        margin: 0 auto;
+        align-items: center;
+        justify-content: center;
+    }
+    .about__left{
+        margin-bottom: 440px;
+    }
+    .about__img{
+        margin: 0 auto;
+        left: 0;
+        right: 0;
+    }
+}
+
+@media(max-width: 1030px){
+    .header__content{
+        flex-direction: column-reverse;
+        justify-content: center;
+    }
+    .header__right{
+        margin: 0 auto;
+        margin-bottom: 115px;
+    }
+    .nav__element-img{
+        width: 0px;
+    }
+    .header__right-brand{
+        margin: 0 auto;
+    }
+    .about__element{
+        width: 0px;
+    }
+    .about__right-element{
+        width: 0px;
+    }
+    .slider__content{
+        flex-direction: column-reverse;
+    }
+    .slider__right{
+        margin-bottom: 100px;
+    }
+    .slider__content::after{
+        content: '';
+    }
+    .slider__right::before{
+        width: 0px;
+    }
+    .footer__content{
+        flex-direction: column;
+        row-gap: 30px;
+       }
+}
+
+@media(max-width: 790px){
+    .player__right>video{
+        margin-right: -50px;
+    }
+    .slider__right-title{
+        font-size: 22px;
+    }
+    .slider__right-name{
+        font-size: 18px;
+    }
+    .slider__right{
+        padding: 10px 20px;
+    }
+    .slider__right-text{
+        font-size: 13px;
+    }
+}
+    
+@media(max-width: 680px){
+    .header__right-img{
+        width: 0px;
+    }
+    
+    .header__right-img2{
+        width: 0px;
+    }
+}
+
+@media(max-width: 650px){
+    .nav__content{
+        display: flex;
+        flex-direction: column;
+        row-gap: 30px;
+        margin: 0 auto;
+    }
+    .header__right-brand{
+        column-gap: 10px;
+    }
+    .header__subtitle{
+        font-size: 14px;
+        width: 300px;
+    }
+    .player__right{
+        margin-right: 90px;
+    }
+    .player__right>video{
+        margin-right: 60px;
+    }
+    .slider__btn{
+        font-size: 15px;
+    }
+    .slider__left{
+        margin: 0;
+    }
+    .slider__card{
+        flex-direction: column;
+        padding: 8px;
+    }
+    .slider__right-star{
+        flex-direction: column;
+        row-gap: 20px;
+    }
+    .slider__star-p{
+        padding-top: 20px;
+    }
+    .slider__right::after{
+        width: 230px;
+    }
+    .star__img{
+        width: 200px;
+    }
+}
+
+@media(max-width: 590px){
+    .footer__list{
+        flex-direction: column;
+        row-gap: 25px;
+    }
+    .footer__icons{
+        flex-direction: column;
+        row-gap: 25px;
+    }
+}
+
+@media(max-width: 490px){
+    .product__box-img{
+        width: 300px;
+    }
+    .player__left{
+        padding: 20px;
+    }
+   .offer__title{
+    font-size: 25px;
+   }
+   .offer__text{
+    font-size: 14px;
+   }
+   .offer__btn{
+    font-size: 14px;
+   }
+   
+}
+
+@media(max-width: 450px){
+    .product__box-img{
+        width: 200px;
+    }
+    .player__left-title{
+        font-size: 29px;
+    }
+    .slider__right{
+        padding: 3px;
+    }
+}
+
+@media(max-width: 420px){
+    .header1{
+        width: 90px;
+        height: 90px;
+    }
+    .header__title{
+        font-size: 40px;
+    }
+    .header__p{
+        font-size: 20px;
+    }
+    .header__price{
+        font-size: 22px;
+    }
+    .left__number-title{
+        font-size: 75px;
+    }
+    .right__number-title{
+        font-size: 75px;
+    }
+}
+
+@media(max-width: 370px){
+    .nav__content{
+        margin-right: 20px;
+    }
+    .header__btns{
+        flex-direction: column;
+        row-gap: 20px;
+    }
+    .second__btn{
+        padding: 15px 24px;
+    }
+}
+@media(max-width: 350px){
+    .nav__link-a{
+        font-size: 14px;
+    }
+}
